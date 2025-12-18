@@ -1,0 +1,114 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header h1 { margin-bottom: 0.5rem; color: #74b69d; }
+.header p { color: #888; margin-bottom: 2rem; }
+
+.card {
+  padding: 2em;
+  background-color: #365a4c;
+  border-radius: 12px;
+  border: 1px solid #333;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #444;
+  background: #242424;
+  color: white;
+  font-family: inherit;
+  box-sizing: border-box; 
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 1rem;
+  background-color: #437160;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.btn-submit:hover { background-color: #58917b; }
+.btn-submit:disabled { background-color: #444; cursor: not-allowed; }
+
+.error-banner {
+  background: #ff4444;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.review-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.review-card {
+  background: #365a4c;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: left;
+  border: 1px solid #333;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.badge.positive { background: #4ade80; } 
+.badge.negative { background: #f87171; } 
+.badge.neutral { background: #facc15; } 
+
+.ai-insight {
+  margin-top: 1rem;
+  background: #548a75;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #ff64b9;
+  font-size: 0.9rem;
+}
